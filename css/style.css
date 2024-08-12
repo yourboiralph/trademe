@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Adoptme-light;
+    src: url(../fonts/Domus_Titling.otf);
+}
+@font-face {
+    font-family: Adoptme-semibold;
+    src: url(../fonts/Domus_Titling_Semibold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    color: white;
+    font-family: "Adoptme-semibold";
+}
+
+body {
+    background-color: white;
+}
+
+.shadow-small {
+    box-shadow: 1px 1px 10px 1px gray;
+}
+
+.shadow-medium {
+    box-shadow: 1px 1px 20px 1px gray;
+}
+
+nav {
+    height: 7rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    background-color: #F8BBD0;
+}
+
+.content{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.banner{
+    margin-top: 10rem;
+    width: 100%;
+    height: 30rem;
+    padding: 2.5rem;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, .7), rgba(255, 255, 255, .2)), url('../img/adoptme-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.banner__heading{
+    font-size: 4rem;
+    stroke: 10px #E81F76;;
+}
+
+.banner__paragraph{
+    width: 50%;
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+.banner__buttons{
+    margin-top: 2.5rem;
+}
+.banner__buttons a{
+    padding: 1.5rem 5rem;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #00A0DF;
+    margin-right: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 1px black;
+}
+
+.filter {
+    margin-top: 2rem;
+    width: 100%;
+    height: 20rem;
+    background-color: #FF8A65;
+}
+
+.trade-box {
+    margin-top: 2rem;
+    width: 100%;
+    height: 25rem;
+    background-color: #FF8A65;
+}
